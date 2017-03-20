@@ -1,0 +1,56 @@
+https://developer.tizen.org/zh-hans/development/ui-practices/native-application/efl/animations-and-effects/elementary-animations?langswitch=zh-hans
+
+elm_transit
+Elm_Transit_Tween_Mode
+
+https://developer.tizen.org/ko/development/ui-practices/native-application/efl/animations-and-effects/ecore-animations
+
+ecore_aminator
+Ecore_Pos_Map
+
+https://www.youtube.com/watch?v=dimVtgqMTT8
+http://staff.ustc.edu.cn/~zhuang/cgi/
+
+sudo apt-get install \
+cmake ninja-build gcc-4.8-arm-linux-gnueabihf \
+gcc-4.8-multilib-arm-linux-gnueabihf binutils-arm-linux-gnueabihf \
+libgcc1-armhf-cross libsfgcc1-armhf-cross libstdc++6-armhf-cross \
+g++-4.8-arm-linux-gnueabihf libstdc++-4.8-dev-armhf-cross 
+
+
+launch_app org.tizen.example.TizenApplication1  __AUL_SDK__ LLDB-SERVER __DLP_DEBUG_ARG__  g,--platform=host,*:1234,-- CORECLR_GDBJIT TizenApplication1.exe
+
+http://165.213.149.170/gerrit/gitweb?p=profile/tv/platform/core/uifw/efl-theme-tizen-tv.git;a=shortlog;h=refs/heads/public_tizen
+
+rpm -ql corefx-managed-1.0.0.18238-9.1.noarch
+/usr/share/tizen.net/System.Net.WebSockets.Client.dll
+/usr/share/tizen.net/System.Net.WebSockets.dll
+
+sh-3.2$ cat /etc/info.ini 
+[Version]
+Model=Tizen3/Mobile;
+Build=tizen-mobile_20170224.2;
+Release=20170224.2;
+[Build]
+Type=eng;
+Date=20170224_173528;
+Time=17:35:28;
+Variant=NONE;
+ID=tizen-mobile;
+
+http://www.bfilipek.com/2014/03/three-particle-effects.html
+https://gist.github.com/thaenor/4d9531cc9a7d1c34b998
+https://github.com/StanEpp/OpenGL_ParticleSystem
+https://github.com/nate-parrott/SRParticleSystem/tree/master/SRParticleSystem
+https://directtovideo.wordpress.com/2009/10/06/a-thoroughly-modern-particle-system/
+https://en.wikibooks.org/wiki/OpenGL_Programming/Particle_systems
+
+Sanghoon Lee		Mar 13 1:02 PM
+Patch Set 9: Code-Review-1
+I didn't find Box and Button's spec on http://10.113.138.40/csapi/public/.
+Please update these widget's spec on above link.
+
+thunder://QUFtYWduZXQ6P3h0PXVybjpidGloOjlDRDc0M0Y5REYyNDczMTY3NDk4OEE4RkE3RDc2Q0E4RjIxRUNFNDlaWg==
+
+https://review.tizen.org/gerrit/#/admin/projects/platform/core/csapi/elm-sharp
+https://www.ics.uci.edu/~gopi/CS211B/opengl_programming_guide_8th_edition.pdf
