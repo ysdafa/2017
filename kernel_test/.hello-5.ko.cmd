@@ -1,0 +1,1 @@
+cmd_/home/ys/github/yansu/2017/kernel_test/hello-5.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/ys/github/yansu/2017/kernel_test/hello-5.ko /home/ys/github/yansu/2017/kernel_test/hello-5.o /home/ys/github/yansu/2017/kernel_test/hello-5.mod.o
