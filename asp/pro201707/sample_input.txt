@@ -1,0 +1,170 @@
+5
+2755
+Korea is located on the Korean Peninsula in East Asia. To the northwest, the Amnok River separates Korea from China and to the northeast, the Duman River separates Korea from China and Russia. The peninsula is surrounded by the Yellow Sea to the west, the East China Sea and Korea Strait to the south, and the East Sea. Notable islands include Jeju Island, Ulleung Island, Dokdo. The southern and western parts of the peninsula have well-developed plains, while the eastern and northern parts are mountainous. The highest mountain in Korea is Mount Paektu (2,744 m), through which runs the border with China. The southern extension of Mount Paektu is a highland called Gaema Heights. This highland was mainly raised during the Cenozoic orogeny and partly covered by volcanic matter. To the south of Gaema Gowon, successive high mountains are located along the eastern coast of the peninsula. This mountain range is named Baekdudaegan. Some significant mountains include Mount Sobaek or Sobaeksan (1,439 m), Mount Kumgang (1,638 m), Mount Seorak (1,708 m), Mount Taebaek (1,567 m), and Mount Jiri (1,915 m). There are several lower, secondary mountain series whose direction is almost perpendicular to that of Baekdudaegan. They are developed along the tectonic line of Mesozoic orogeny and their directions are basically northwest. Unlike most ancient mountains on the mainland, many important islands in Korea were formed by volcanic activity in the Cenozoic orogeny. Jeju Island, situated off the southern coast, is a large volcanic island whose main mountain Mount Halla or Hallasan (1950 m) is the highest in South Korea. Ulleung Island is a volcanic island in the East Sea, whose composition is more felsic than Jeju-do. The volcanic islands tend to be younger, the more westward. Because the mountainous region is mostly on the eastern part of the peninsula, the main rivers tend to flow westwards. Two exceptions are the southward-flowing Nakdong River and Seomjin River. Important rivers running westward include the Amnok River, the Chongchon River, the Taedong River, the Han River, the Geum River, and the Yeongsan River. These rivers have vast flood plains and provide an ideal environment for wet-rice cultivation. The southern and southwestern coastlines of Korea form a well-developed ria coastline, known as Dadohae-jin in Korean. Its convoluted coastline provides mild seas, and the resulting calm environment allows for safe navigation, fishing, and seaweed farming. In addition to the complex coastline, the western coast of the Korean Peninsula has an extremely high tidal amplitude (at Incheon, around the middle of the western coast. It can get as high as 9 m). Vast tidal flats have been developing on the south and west coastlines.
+35 50
+123456789a123456789a1*3456789a123456**9*123456789a
+123456789b123456789b***45678*b1234*****b123456789b
+123456789c123456789c1**45678**123456789*123456789c
+123456789d123456789d***4*6789*123456789*123456789d
+123456789e123456789****456789e**3456789******6789e
+123456789f12345678*****456789f1**4*6789f12345**89f
+123456789g1234567*****3456789g12**56789g123456*8**
+123456789h12345*****123456789h1*3456789h1234*6789h
+123456789i12345******23456789i*23456789i1*3456789i
+123456789j12345*******345678*j12345678*j123456789j
+123456789k1234567*********789k123456*89k123456789k
+123456789l123456789*******789***3456789l123456789l
+*******89m123456789m1234**789m123456789m123456789m
+1*******9n123456789n1234*6789n123456789n123456789n
+12******9o123456789o1234*6*89o123456789o123456789o
+123***789p*23456789p1234**789p123456789p123456789p
+123456789q123*56789q1234*6789q123456789q123456789q
+123456789****4*6789r12*456789r123456789r123456789r
+123456*******456*89s*23456789s123456789s123456789s
+12345*******345678*t123456789t123456789t123456789t
+12345*****12345678*u123456789u123456789u123456789u
+12345**89v12345678*v123456789v123456789v123456789v
+12345*789w12345678**1*3456789w123456789w123456789w
+123456789x12345678**123456789x123456789x123456789x
+123456789y1234567*9y123456789y123456789y123456789y
+123456789z1234567*9z123456789z123456789z123456789z
+123456789a1234567*9a123456789a123456789a123456789a
+123456789b123456*89b123456789b123456789b123456789b
+123456789c123456*89c123456789c123456789c123456789c
+  ___ ___         .__  .__        ._._________._. 
+ /   |   \   ____ |  | |  |   ____| |\_____   \ | 
+/    ~    \_/ __ \|  | |  |  /  _ \ |   /   __/ | 
+\    Y    /\  ___/|  |_|  |_(  <_> )|  |   |   \| 
+ \___|_  /  \___  >____/____/\____/__  |___|   __ 
+       \/       \/                 \/  <___>   \/ 
+5
+0 2
+1 1 0 10
+3 1 2 10 9030
+1 2 1 5
+3 2 5 2 2365
+21
+0 6
+1 1 0 4
+1 2 3 15 0 20 2
+2 1 2
+3 1 5 8 42099
+1 3 3 17 23 24 23
+2 1 3
+3 1 6 10 87305
+1 4 2 55 70
+2 1 4
+3 1 8 10 203290
+1 5 1 6
+1 6 3 27 0 31 2
+2 5 6
+3 5 6 7 40113
+1 7 3 29 8 29 13
+2 5 7
+3 5 8 8 96661
+1 8 2 55 70
+2 5 8
+3 5 8 11 218397
+25
+0 6
+1 1 1 4
+1 2 0 5
+1 3 3 13 6 15 8
+2 2 3
+2 1 2
+3 1 7 7 54223
+1 4 2 0 15
+2 1 4
+3 1 7 11 163249
+1 5 2 77 81
+2 2 5
+3 1 9 10 227965
+1 6 0 6
+1 7 1 5
+1 8 3 15 6 18 7
+2 7 8
+2 6 7
+3 6 7 8 67314
+1 9 2 228 237
+2 6 9
+3 6 9 8 138746
+1 10 2 41 52
+2 7 10
+3 6 8 12 261953
+39
+0 8
+1 1 1 4
+1 2 0 6
+2 1 2
+1 3 2 320 333
+2 2 3
+3 1 8 8 112450
+1 4 1 3
+2 1 4
+1 5 3 23 29 27 31
+2 4 5
+3 1 8 15 364387
+1 6 2 228 237
+2 2 6
+1 7 3 38 21 41 22
+2 4 7
+3 1 11 19 1016801
+1 8 2 138 162
+2 1 8
+3 1 11 22 1513405
+1 9 0 6
+1 10 1 4
+2 9 10
+1 11 2 497 507
+2 10 11
+3 9 6 10 100417
+1 12 0 8
+2 9 12
+1 13 3 46 29 48 31
+2 12 13
+3 9 11 10 295462
+1 14 3 10 16 13 17
+2 10 14
+1 15 2 175 190
+2 12 15
+3 9 14 14 941766
+1 16 3 11 31 23 32
+2 9 16
+3 9 16 15 1529818
+36
+0 10
+1 1 0 4
+1 2 0 3
+1 3 1 3
+2 2 3
+2 1 2
+3 1 7 6 38829
+1 4 3 17 23 19 25
+2 3 4
+3 1 9 9 151631
+1 5 2 1209 1220
+2 2 5
+3 1 12 9 310076
+1 6 1 3
+1 7 3 28 7 31 8
+2 6 7
+2 1 6
+3 1 16 9 519467
+1 8 3 9 15 11 16
+2 3 8
+3 1 15 12 773972
+1 9 2 344 354
+2 2 9
+3 1 17 12 1031132
+1 10 2 373 377
+2 3 10
+3 1 17 14 1361975
+1 11 3 5 17 16 17
+2 2 11
+3 1 16 16 1574931
+1 12 3 18 22 18 25
+2 3 12
+3 1 17 16 1773100
+1 13 2 543 565
+2 2 13
+3 1 19 16 2300417
