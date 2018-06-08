@@ -1,0 +1,123 @@
+Largest rectangle
+Panoramic view problem
+● https://www.hackerrank.com/challenges/largest-rectangle
+
+Expert 2
+Largest Cuboid
+Cube with 0 and 1 of size N. 1<=N<=32
+Find the largest cuboid (volume) containing only 0.
+
+Hamming distance
+● https://www.hackerrank.com/challenges/hamming-distance
+● naive solution
+● optimisation
+
+How to deal with linear space
+http://main.edu.pl/en/archive/oi/9/kol
+
+How to reuse data
+http://main.edu.pl/en/archive/oi/21/prz
+
+Dynamic programming
+• Longest common substring
+• Knapsack problem
+• Matrices multiplying problem
+• Longest increasing subsequence
+
+1.Find brute solution
+2.Create recursion
+3.Create cache/fill the table
+
+Coin change
+https://www.hackerrank.com/challenges/coin-change
+1.Order is important
+2.Order is not important
+
+Top down dependencies
+● Path in triangle
+● https://www.hackerrank.com/challenges/superman-celebrates-diwali
+● Sotong honeycomb
+
+What can we do with strings
+https://www.hackerrank.com/challenges/square-subsequences
+
+Beam/Mask search
+https://www.hackerrank.com/challenges/queens-on-board
+Similar SWTest problems: processor cuts , task scheduling
+
+Space problem
+https://www.hackerrank.com/challenges/oil-well
+
+Exponential number of problems
+https://www.hackerrank.com/challenges/points-ina-plane
+
+Runaway Quail
+https://code.google.com/codejam/contest/4254486/dashboard#s=p2
+
+Classical algorithms
+•DFS, BFS
+•Dijkstra, Bellman-Ford, Floyd–Warshall
+•Minimum spanning tree: Prim, Kruskal
+• Tree diameter
+• Topological sorting
+
+Worth to know
+● Strongly connected component
+● Euler & Hamiltonian cycle
+● Bipartite matching
+● Flood algorithm
+
+How to deal with trees
+● https://www.hackerrank.com/challenges/kingdom-division
+● https://www.hackerrank.com/challenges/repairroads
+● https://www.hackerrank.com/challenges/bytelandian-tours
+
+Is everything a graph?
+Runaway Quail (again)
+
+Directed acyclic graphs
+● The longest path
+● https://www.hackerrank.com/challenges/kingdom-connectivity
+● Sotong: bus route
+
+Bipartite matching
+● Couple matching
+● https://www.hackerrank.com/challenges/problem-solving
+● Sotong: intelligence game (König's theorem)
+
+What to do with complex conditions
+and and not linear measure?
+● SW test: tanks
+● SW test: city traffic
+
+Flood algorithm
+● Classic problem
+● https://www.hackerrank.com/challenges/crab-graphs
+● SWTest: labyrinth path
+
+What to do with open problem
+● Analyse cost function
+●What increase reward
+●What decrease reward
+●What you can implement?
+●Neural function?
+●Clustering?
+●Monte Carlo?
+●Greedy approach?
+
+SW Expert problems
+• Block matching
+• Puzzle solving
+• Data encoding
+
+Dyna blaster (Bomber man)
+●Game
+● Turn based
+● Single player
+●Multi player
+● Subproblems
+● Avoiding bombs
+● Predicting opponents moves
+● PvP tactic
+● PvP strategy
+
