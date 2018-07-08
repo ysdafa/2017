@@ -1,0 +1,262 @@
+https://partner.support.services.microsoft.com/zh-cn/contact/chat/37/?disability=false&mode=live&partnerId=smc&appid=virtual-agent&partnerid=smc&sdk_componentid=d00486a014864456de02220aceb127f0&sdk_targetorigin=https:%2F%2Fpartner.support.services.microsoft.com&ms-cv=d7%2FLFBrpmLT4wwlbFJoFPq.44&sdk_sessionid=d94177960bb2462a450da5d7f57c3cea&sdk_hosttype=2&sdk_xframe=false
+
+
+clean robot 
+
+
+Use case all ——1
+@startuml
+title Robot Cleaner
+left to right direction
+actor User
+User --> (UC_01.Turn on cleaner)
+User --> (UC_02.Turn off cleaner)
+User --> (UC_03.Start cleaning)
+User --> (UC_04.Stop cleaning)
+User --> (UC_05.Rechange)
+User --> (UC_06.Set auto clean mode)
+User --> (UC_07.Set spot clean mode)
+User --> (UC_08.Set manual clean mode)
+User --> (UC_09.Control drive direction)
+User --> (UC_10.Set Max work mode)
+User --> (UC_11.Set Normal work mode)
+User --> (UC_12.Set Slient work mode)
+User --> (UC_13.Operate by apps in smart device)
+User --> (UC_14.Operate by remote control)
+User --> (UC_15.Operate by buttons in Robot Cleaner)
+User --> (UC_16.Set non-entry boundaries)
+@enduml
+
+
+@startuml
+title UC_01. Turn on cleaner
+autonumber
+hide footbox
+actor User
+participant RobotCleaner
+User -> RobotCleaner: Press power button
+RobotCleaner -> RobotCleaner: Initialize the system
+note right
+    Init the clean system
+    Init the drive system
+    Init the navigation system
+    Init the display panel
+end note
+RobotCleaner -> RobotCleaner: Show the current status on the display panel
+@enduml
+
+@startuml
+title UC_03. Start cleaning
+autonumber
+hide footbox
+actor User
+participant RobotCleaner
+User -> RobotCleaner: Press start cleaning button
+RobotCleaner -> RobotCleaner: Start cleaning
+RobotCleaner -> RobotCleaner: Start the navigation system
+RobotCleaner -> RobotCleaner: Start the clean system
+RobotCleaner -> RobotCleaner: Start the drive system
+RobotCleaner -> User: Show cleaning status
+alt battery low
+RobotCleaner -> RobotCleaner: Recharge
+end
+@enduml
+
+
+@startuml
+title UC_05. Charge
+autonumber
+hide footbox
+actor User
+participant RobotCleaner
+User -> RobotCleaner: Press start charge button
+RobotCleaner -> RobotCleaner: Stop the clean system
+RobotCleaner -> RobotCleaner: Remember the current point within the room map
+RobotCleaner -> RobotCleaner: Find the charge station by IR signal
+RobotCleaner -> RobotCleaner: Navigate the drive path to the charge station
+RobotCleaner -> RobotCleaner: Drive to the charge station
+RobotCleaner -> RobotCleaner: Connect to the charge station
+RobotCleaner -> RobotCleaner: Start charging
+RobotCleaner -> RobotCleaner: Show cleaning status on display panel
+alt user takes it to the charge station
+User -> RobotCleaner: Take it up
+RobotCleaner -> RobotCleaner: Auto stop the system by detecting the wheel pressure from cliff senser
+User -> RobotCleaner: connect it to the charge station
+RobotCleaner -> RobotCleaner: Start charging
+end
+@enduml
+
+
+@startuml
+title UC_03. Start cleaning
+autonumber
+hide footbox
+actor User
+box "RobotCleaner"
+boundary IRRecevier
+control RobotCoreController
+control NavigationController
+control DriveController
+control CleanController
+control ChargeController
+control DisplayPanel
+end box
+User -> IRRecevier: Press start cleaning button
+IRRecevier -> RobotCoreController: Start core system
+RobotCoreController -> NavigationController: Start navigation system
+RobotCoreController -> DriveController: Start drive system
+RobotCoreController -> CleanController: Start clean system
+RobotCoreController -> DisplayPanel: Show cleaning status
+alt battery low
+RobotCoreController -> ChargeController: Recharge
+RobotCoreController -> DisplayPanel: Show charging status
+end
+@enduml
+
+@startuml
+title UC_05. Charge
+autonumber
+hide footbox
+actor User
+box "RobotCleaner"
+boundary IRRecevier
+control RobotCoreController
+control NavigationController
+entity RoomMap
+control DriveController
+control CleanController
+control ChargeController
+control DisplayPanel
+end box
+User -> IRRecevier: Press charge button
+IRRecevier -> RobotCoreController: Start charge
+RobotCoreController -> CleanController: Stop clean
+RobotCoreController -> NavigationController: Record the current position
+NavigationController -> RoomMap: Save the current position
+RobotCoreController -> ChargeController: Find the charge staion position
+RobotCoreController -> NavigationController: Navigate to the charge station
+RobotCoreController -> DriveController: Drive to the charge station
+RobotCoreController -> ChargeController: Connect to the charge station
+ChargeController -> ChargeController: Start charging
+RobotCoreController -> DisplayPanel: Show charging status
+alt user takes it to the charge station
+User -> User: Pick it up
+RobotCoreController <- NavigationController: send the message that the cleaner is picked up
+note right
+detect the pressure from the wheel pressure from the cliff sensor
+end note
+RobotCoreController -> CleanController: Stop clean
+User -> User: connect the cleaner to the charge station
+ChargeController -> ChargeController: Start charging
+RobotCoreController -> DisplayPanel: Show charging status
+end
+@enduml 
+
+@startuml
+title UC_07. Continue cleaning from the stop position
+autonumber
+hide footbox
+actor User
+box "RobotCleaner"
+boundary IRRecevier
+control RobotCoreController
+control NavigationController
+entity RoomMap
+control DriveController
+control CleanController
+control ChargeController
+control DisplayPanel
+end box
+ChargeController -> ChargeController: finish charging
+RobotCoreController -> ChargeController: Disconnect from the charge station
+RobotCoreController -> NavigationController: Get the last position
+NavigationController -> RoomMap: Get the last position
+RobotCoreController -> NavigationController: Navigate to the last position
+RobotCoreController -> DriveController: Drive to the last position
+RobotCoreController -> CleanController: Continue to do cleaning
+RobotCoreController -> DisplayPanel: Show cleaning status
+@enduml
+
+@startuml
+title UC_08. Set auto clean mode
+autonumber
+hide footbox
+actor User
+box "RobotCleaner"
+boundary IRRecevier
+control RobotCoreController
+control NavigationController
+entity ModeConfigList
+control DriveController
+control DisplayPanel
+end box
+User -> IRRecevier: Set auto clean mode
+IRRecevier -> RobotCoreController: Set auto clean mode
+RobotCoreController -> NavigationController: Set auto clean mode
+NavigationController -> ModeConfigList: Set auto clean mode
+DriveController ->DriveController: Drive with automatic mode following Z scanning path
+RobotCoreController -> DisplayPanel: Show mode status
+@enduml
+
+@startuml
+title UC_13. Set normal work mode
+autonumber
+hide footbox
+actor User
+box "RobotCleaner"
+boundary IRRecevier
+control RobotCoreController
+control CleanController
+entity ModeConfigList
+control DisplayPanel
+end box
+User -> IRRecevier: Set auto clean mode
+IRRecevier -> RobotCoreController: Set normal work mode
+RobotCoreController -> CleanController: Set normal work mode
+CleanController -> ModeConfigList: Set normal work mode
+CleanController -> CleanController: Adjust the vacuum speed to normal
+RobotCoreController -> DisplayPanel: Show normal work status
+@enduml
+
+@startuml
+title UC_16. Make the clean time schedule
+autonumber
+hide footbox
+actor UserApp
+box "RobotCleaner"
+boundary IOTClient
+control ScheduleManager
+control RobotCoreController
+control CleanController
+control NavigationController
+control DriveController
+control DisplayPanel
+end box
+UserApp -> IOTClient: Set the schedule
+IOTClient -> ScheduleManager: Register the schedule
+ScheduleManager -> RobotCoreController: Start clean as scheduled
+RobotCoreController -> CleanController: Start clean as scheduled
+RobotCoreController -> NavigationController: Start clean as scheduled
+RobotCoreController -> DriveController: Start clean as scheduled
+RobotCoreController -> DisplayPanel: Show clean status
+@enduml
+
+@startuml
+title UC_17. Set non-entry boundaries
+autonumber
+hide footbox
+actor UserApp
+box "RobotCleaner"
+boundary IOTClient
+control ScheduleManager
+control RobotCoreController
+control CleanController
+control NavigationController
+entity RoomMap
+control DisplayPanel
+end box
+UserApp -> IOTClient: Set the boundaries
+IOTClient -> RobotCoreController: Set the boundaries
+RobotCoreController -> NavigationController: Set the boundaries
+NavigationController -> RoomMap: Set the boundaries
+@enduml
