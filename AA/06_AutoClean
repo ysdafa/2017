@@ -1,0 +1,29 @@
+@startuml
+title UC_06. Auto Cleaning
+autonumber
+hide footbox
+actor User
+participant RobotCleaner
+RobotCleaner -> RobotCleaner: Construct the house map
+RobotCleaner -> RobotCleaner: Plan the cleaning path
+alt clean
+RobotCleaner -> RobotCleaner: Detect the floor type
+RobotCleaner -> RobotCleaner: Select the suitable cleaning mode
+RobotCleaner -> RobotCleaner: clean the tile of map grid
+end 
+alt navigate
+RobotCleaner -> RobotCleaner: Motion along the wall
+RobotCleaner -> RobotCleaner: Motion along the boundary of the obstacle
+RobotCleaner -> RobotCleaner: Motion with trajectory patterns as zigzag 
+end
+alt obstacle
+RobotCleaner -> RobotCleaner: Handle the static obstacle
+RobotCleaner -> RobotCleaner: Handle the dynamic obstacle
+RobotCleaner -> RobotCleaner: Handle the transparent obstacle
+RobotCleaner -> RobotCleaner: Handle the penetrable obstacle
+end
+alt cliff
+RobotCleaner -> RobotCleaner: Detect the cliff
+RobotCleaner -> RobotCleaner: Plan and navigate the suitable step
+end
+@enduml
