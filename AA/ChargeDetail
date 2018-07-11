@@ -1,0 +1,38 @@
+@startuml
+title UC_05. Charge
+autonumber
+hide footbox
+actor User
+box "RobotCleaner"
+boundary IRRecevier
+control RobotCoreController
+control NavigationController
+entity RoomMap
+control DriveController
+control CleanController
+control ChargeController
+control DisplayPanel
+end box
+User -> IRRecevier: Press charge button
+IRRecevier -> RobotCoreController: Start charge
+RobotCoreController -> CleanController: Stop clean
+RobotCoreController -> NavigationController: Record the current position
+NavigationController -> RoomMap: Save the current position
+RobotCoreController -> ChargeController: Find the charge staion position
+RobotCoreController -> NavigationController: Navigate to the charge station
+RobotCoreController -> DriveController: Drive to the charge station
+RobotCoreController -> ChargeController: Connect to the charge station
+ChargeController -> ChargeController: Start charging
+RobotCoreController -> DisplayPanel: Show charging status
+alt user takes it to the charge station
+User -> User: Pick it up
+RobotCoreController <- NavigationController: send the message that the cleaner is picked up
+note right
+detect the pressure from the wheel pressure from the cliff sensor
+end note
+RobotCoreController -> CleanController: Stop clean
+User -> User: connect the cleaner to the charge station
+ChargeController -> ChargeController: Start charging
+RobotCoreController -> DisplayPanel: Show charging status
+end
+@enduml 

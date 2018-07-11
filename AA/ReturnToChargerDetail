@@ -1,0 +1,37 @@
+@startuml
+title UC_05. Return to charger
+autonumber
+hide footbox
+actor User
+box "RobotCleaner"
+control RobotCoreController
+control MotionController
+control MapController
+control PathPlanner
+entity HouseMap
+control PowerController
+control CleanController
+end box
+User -> RobotCoreController: Press the charger button
+alt low battery
+RobotCoreController -> RobotCoreController: Stop the cleaning
+RobotCoreController -> MapController: Save the current point
+MapController -> HouseMap: Save the current point
+RobotCoreController -> PathPlanner: Find the best path to the charger station  
+PathPlanner -> PathPlanner: Search the optimized path
+note left
+A* D* algorithm
+end note
+RobotCoreController -> MotionController: Navigate and drive to the charge station
+RobotCoreController -> PowerController: Connect the charger station
+end
+alt
+User -> RobotCoreController: takes it up
+CleanController -> CleanController: detect the wheel pressure 0
+CleanController -> RobotCoreController: stop the system 
+RobotCoreController -> MapController: Save the current point
+MapController -> HouseMap: Save the current point
+User -> RobotCoreController : connect it to the charger station
+end
+RobotCoreController -> PowerController: Start charging
+@enduml

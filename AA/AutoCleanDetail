@@ -1,0 +1,54 @@
+@startuml
+title Auto Cleaning
+autonumber
+hide footbox
+box "RobotCleaner"
+control RobotCoreController
+control MotionController
+control CleanController
+control MapController
+control PathPlanner
+entity HouseMap
+control ObstacleController
+control CliffController
+end box
+RobotCoreController -> MotionController: Construct the house map
+MotionController -> MotionController: Roam the free space
+RobotCoreController -> MapController: Construct the house map
+MapController -> HouseMap: Construct the house map
+RobotCoreController -> PathPlanner: Plan the cleaning path
+alt Random path
+PathPlanner -> PathPlanner: Plan random path
+end
+alt cellular decomposition
+PathPlanner -> PathPlanner: Decompose the map to cells
+PathPlanner -> PathPlanner: Optimize the cell visiting sequence
+PathPlanner -> PathPlanner: Choose the covering patterns
+note left
+Spiral, ZigZag
+end note
+end
+loop navigate
+MotionController -> CleanController: do cleaning
+MotionController -> MotionController: Along the wall
+MotionController -> MotionController: Along the boundary of the obstacle
+MotionController -> MotionController: Motion with trajectory pattern
+MotionController -> MotionController: Move to the next cell
+end
+alt obstacle
+ObstacleController -> ObstacleController: Handle the static obstacle
+ObstacleController -> ObstacleController: Handle the dynamic obstacle
+ObstacleController -> ObstacleController: Handle the transparent obstacle
+ObstacleController -> ObstacleController: Handle the penetrable obstacle
+ObstacleController -> MapController: Update the house map
+ObstacleController -> PathPlanner: Make new path plan
+note left
+more detail in next sequence for each kind of obstacle
+end note
+end
+alt cliff
+CliffController -> CliffController: Detect the cliff
+CliffController -> MapController: Update the house map
+CliffController -> PathPlanner: Make new path plan
+end
+@enduml
