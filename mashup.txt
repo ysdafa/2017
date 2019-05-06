@@ -1,0 +1,260 @@
+﻿p.title
+Subjective and Objective Assessment of Mashup Tools
+"CMSs, Linked Data and Semantics: A Linked Data Mashup over Drupal for Personalized Search"
+Modeling and Utilizing Quality Properties in the Development of Composite Web Mashups
+Semantic-Aware Mashups for Personal Resources in SemanticLIFE and SocialLIFE
+Enterprise Mashups - Usefulness and Relevance Put to the Test.
+XSPARQL-Viz: A Mashup-Based Visual Query Editor for XSPARQL
+A Goal Decomposition Approach for Automatic Mashup Development
+Market Overview of Enterprise Mashup Tools
+From Choreographed to Hybrid User Interface Mashups: A Generic Transformation Approach
+Mashup Creation Using a Mashup Rule Language
+From Mashup Technologies to Universal Integration: Search Computing the Imperative Way.
+iSSEE: IMS Sensors Search Engine Enabler for Sensors Mashups Convergent Application
+Mashup Enabled Dynamic Capabilities in the Fuzzy Front-End of Innovation
+A description-based composition method for mobile and tethered Mashup applications
+Data Transformation Knowledge Reuse in Spreadsheet-Based Mashup Development Platform
+Design Principles of Enterprise Mashups.
+Easing Access for Novice Users in Multi-screen Mashups by Rule-Based Adaption
+Eine Integrationsplattform für Enterprise-Mashups.
+A Context-Aware Mashup Integration Guideline for Enterprise 2.0
+Provisioning of Service Mashup Topologies
+An Efficient Data Maintenance Strategy for Data Service Mashup Based on Materialized View Selection
+"Hey! You Got Imperative in My Declarative, or A Mashup Made in Heaven: Making OWL friendlier with Javascript."
+Introducing a Mashup-Based Approach for Design-Time Compliance Checking in Business Processes
+Smart Space Governing through Service Mashups
+Recommending Experts for Collaboration in Mashup Development
+Towards a Reference Model for Grassroots Enterprise Mashup Environments
+Guidelines for Efficient and Effective End-User Development of Mashups
+DataConf: A Full Client-Side Web Mashup for Scientific Conferences
+Towards Semi-automatic Construction of Data Mashups
+Enhanced Quality of Experience through IVR Mashup to Access Same Service Multiple Operator Services
+Towards Security-Enhanced and Privacy-Preserving Mashup Compositions
+MultiMasher: Providing Architectural Support and Visual Tools for Multi-device Mashups
+NERITS - A Machine Translation Mashup System Using Wikimeta and DBpedia
+Mashups in Second Life @ VU.
+Towards Semantic Mashup Tools for Big Data Analysis
+Mashups for Community Aware Sensor Processing with SCAMPI.
+A Runtime Environment for Distributed Mashups in Multi-device Scenarios
+"Linked Data Mashups: A Review on Technologies, Applications and Challenges"
+A Partial Solution to the Semantic Web Services Challenge Problem Using Swashup - The Ruby on Rails Services Mashup Approach.
+Linked Data Based Expert Search and Collaboration for Mashup
+Programming Without Programming: Learning Mashups And Web 2.0 In The Information Technology Classroom.
+Specification and Incremental Maintenance of Linked Data Mashup Views
+"Towards Semantic Mashups: Tools, Methodologies, and State of the Art"
+Combining a REST Lexical Analysis Web Service with SPARQL for Mashup Semantic Annotation from Text
+Linked Data Services and Semantics-Enabled Mashup
+FaceMashup: Enabling End User Development on Social Networks Data
+Designing Mashup View Navigations Using Data Binding Approach
+SandMash: An Approach for Mashups Techniques on Smartphones
+A Mashup Tool for Collaborative Engineering of Service-Oriented Enterprise Documents
+Towards Enabling Next Generation Mobile Mashups
+Enterprise-Mashup-Systeme als Plattform für situative Anwendungen Nutzen und Herausforderungen für Unternehmen
+Tool Support for Constructing Mobile Mashups
+A UI-Centric Approach for the End-User Development of Multidevice Mashups
+The Mashup Atelier
+New WebEpi Technologies for Epidemiology Data Geo-Visualization Mashups
+Innovation in the Programmable Web: Characterizing the Mashup Ecosystem
+Scientific Mashups: Runtime-Configurable Data Product Ensembles
+The RDF Book Mashup: From Web APIs to a Web of Data
+The Reverse C10K Problem for Server-Side Mashups
+BPMashup: Dynamic Execution of RESTful Processes
+Consumer Mashups with Mashlight
+Service Recommendation for Mashup Creation Based on Time-Aware Collaborative Domain Regression
+Manifold-Learning Based API Recommendation for Mashup Creation
+Mashups with Mashlight
+A Service Mashup Tool for Open Document Collaboration
+Semantische Mashups auf Basis Vernetzter Daten
+"Turning Web Applications into Mashup Components: Issues, Models, and Solutions"
+A New Partial Information Extraction Method for Personal Mashup Construction.
+A Web-Based Mashup Tool for Information Integration and Delivery to Mobile Devices
+Geo-Mashups Automation for Web-based Epidemiological Reporting System.
+Design of an Autonomous Framework for Efficient Large Scale Management of Next Generation Web Service Mashups
+State-Driven and Brick-Based Mobile Mashup
+A Quality Model for Mashup Components
+Integrated Environment for Visual Data-Level Mashup Development
+"A Description-based Approach to Mashup of Web Applications, Web Services and Mobile Phone Applications"
+Spreadsheet as a Generic Purpose Mashup Development Environment
+Enterprise Mashup vs. Service Composition: What fits to reach the next stage in End-User Development?
+End-to-End Security for Enterprise Mashups
+Climate Analytics Workflow Recommendation as a Service - Provenance-Driven Automatic Workflow Mashup
+Service Recommendation for Mashup Composition with Implicit Correlation Regularization
+Let It Flow: Building Mashups with Data Processing Pipelines
+Mashups'07: First International Workshop on Web APIs and Services Mashups
+Automatic Generation of Mashups for Personalized Commerce in Digital TV by Semantic Reasoning
+Introduction: Second International Workshop on Web APIs and Services Mashups (Mashups 2008)
+Personalised Mashups: Opportunities and Challenges for User Modelling
+Application Framework with Demand-Driven Mashup for Selective Browsing.
+An Overview of Current Approaches to Mashup Generation.
+Mashup-aware corporate portals
+The Web Mashup Scripting Language Profile
+Context-Aware Mashups for Mobile Devices
+"Web 2.0 Mashups for Contextualization, Flexibility, Pragmatism,and Robustness"
+Mashups: An Approach to Overcoming the Business/IT Gap in Service-Oriented Architectures
+From Internet of Things Mashups to Model-Based Development
+Mashups over the Deep Web
+A Rule-Based Approach of Creating and Executing Mashups
+Generic Business Model Types for Enterprise Mashup Intermediaries
+MashupOS: operating system abstractions for client mashups
+Itinerary Planner: A Mashup Case Study
+A Component-Based Approach for Engineering Enterprise Mashups
+FabAR: Interaktive Fabrikation von 3D-Drucken durch Mashups.
+Model-Based Automated Navigation and Composition of Complex Service Mashups
+An Effective End-User Development Approach Through Domain-Specific Mashups for Research Impact Evaluation
+A Domain-Specific Language for Web APIs and Services Mashups
+ConfMashup - Personenzentrische Datenintegration für Tagungsinformation
+On the Contribution of Reference Modeling for Organizing Enterprise Mashup Environments
+A Study of User's Acceptance on Situational Mashups in Situational Language Teaching.
+Mobile Augmented Reality Mashup for Furture IoT Environment
+MultiMasher: A Visual Tool for Multi-device Mashups
+Complex Sensor Mashups for Linking Sensors and Formula-Based Knowledge Bases
+Creating a Virtual Personal Health Record Using Mashups
+Natural End-User Development of Web Mashups
+"Mashups — Motivation, Organisation und Geschäftsmodelle"
+In-Situ Web Mashup and Hypermedia Support for Mobile Vision-Based AR Applications
+Mashup technology: Beyond open programming interfaces
+A Mashup Supporting Sustainable Decision Making
+MoVieUp: Automatic Mobile Video Mashup
+Building Mashups by Demonstration
+From Mashup Applications to Open Data Ecosystems
+An Enterprise Mashup Integration Service Framework for Clouds
+Requirements-Driven Quality Modeling and Evaluation in Web Mashups
+Please Permit Me: Stateless Delegated Authorization in Mashups
+MIRASS: Medical Informatics Research Activity Support System Using Information Mashup Network
+Mashup-based information retrieval for domain experts
+Health Mashups: Presenting Statistical Patterns between Wellbeing Data and Context in Natural Language to Promote Behavior Change
+Extending an Instant Messaging System with Data Services and Mashups Thereof
+SMEF: An Entropy-Based Security Framework for Cloud-Oriented Service Mashup
+Mashups: Strukturelle Eigenschaften und Herausforderungen von End-User Development im Web 2.0 (Mashups: Structural Characteristics and Challenges of End-User Development in Web 2.0)
+An Empirical Study of Programmable Web: A Network Analysis on a Service-Mashup System
+"Mix, Match, Rediscovery: A Mashup Experiment of Knowledge Organization in an Enterprise Environment"
+A Linked Data Perspective for Collaboration in Mashup Development
+Enabling On-Demand Mashups of Open Data with Semantic Services
+A user-centric Mashuped SOA
+Optimal Event Monitoring through Internet Mashup over Multivariate Time Series
+Towards Mobile Multimedia Mashup Architecture
+Mobile Health Mashups: Making sense of multiple streams of wellbeing and contextual data for presentation on a mobile device
+A Guided Mashup Framework for Rapid Software Analysis Service Composition
+Thread management in Mashup execution platforms
+Category-Aware API Clustering and Distributed Recommendation for Automatic Mashup Creation
+End-User Development of Mashups with NaturalMash
+Privacy Aspects of Mashup Architecture
+Story Mashup: design and evaluation of novel interactive storytelling game for mobile and web users
+Experiments and performance evaluation of Event Driven Mashups
+"Digital Text Collections, Linguistic Research Data, and Mashups: Notes on the Legal Situation."
+Virtuoso Business Mashups: building situational applications in record time
+A Mashup-Based Approach for Virtual SDN Management
+Mashup Architecture for Connecting Graphical Linux Applications Using a Software Bus
+Securing Mobile Mashups with SCCM
+A Novel Approach for API Recommendation in Mashup Development
+WeMash: An Online System for Web Video Mashup
+Discovery and Reuse of Service Hyperlinks for Efficient Data Mashup
+An Efficient Data Maintenance Model for Data Service Mashup
+"Mix, Match, Rediscover: A Mashup Experiment of Knowledge Organization in an Enterprise Environment"
+Third international workshop on web APIs and services Mashups (Mashups'09)
+Evaluating the Usability of Mashups Applications
+A Context-Based Autonomous Construction Approach for Procedural Mashups
+glue.things: a Mashup Platform for wiring the Internet of Things with the Internet of Services
+A Lightweight Platform for Web Mashups in Immersive Mirror Worlds
+A Data Mashup Engine for Smartphones Based on XProc
+Web-Wide Application Customization: The Case of Mashups
+Mashup Service Classification and Recommendation Based on Similarity Computing
+Home Appliance Mashup System Based on Web Service
+A Secure Proxy-Based Cross-Domain Communication for Web Mashups
+Towards Pervasive Mashups in Embedded Devices
+Trend of E-Learning: the service Mashup
+Semantic Cloud: Building Dynamic Mashup in Cloud Environment
+Entity Search Strategies for Mashup Applications
+Freshness-Aware Sensor Mashups Based on Data Services
+A Dataflow-Pattern-Based Recommendation Approach for Data Service Mashups
+Mashups: who? what? why?
+Fuzzy Mashup Quality Requirements Specification for Web Users
+Aspects and Challenges of Mashup Creator Design
+Innovation Mashups: Academic Rigor Meets Social Networking Buzz
+Developing mashup applications using IBM Cognos 8's Mashup Service
+Learning Space Mashups: Combining Web 2.0 Tools to Create Collaborative and Reflective Learning Spaces
+On-Demand Service-Oriented MDA Approach for SaaS and Enterprise Mashup Application Development
+BioMashups: The New World of Exploratory Bioinformatics?
+The MACE Approach for Caching Mashups
+"Book review: Library Mashups: Exploring New Ways to Deliver Library Data Nicole C. Engard (ed.). London: Facet Publishing, 2009. 334pp, £29.95. ISBN 9781856047036"
+Business Process Integration using Telco Mashups
+A Social-Aware Service Recommendation Approach for Mashup Creation
+Enhancing Secure Web Mashups Development in Enterprise Environments
+A Contextual Information Acquisition Approach Based on Semantics and Mashup Technology
+MIP: Mashup for Industrial Internship Placement
+Mashups and widget orchestration
+"Developing Client-Side Mashups: Experiences, Guidelines and Reference Architecture"
+Mashup Service Recommendation Based on User Interest and Social Network
+IoT Mashup as a Service: Cloud-Based Mashup Service for the Internet of Things
+Mashups: A Literature Review and Classification Framework
+A Metadata-Based Approach for Multimedia Service Mashup in IMS
+Joined View Editor for Mashups of Web Data Stores
+Identifying Middlewares for Mashup Personal Learning Environments
+Context-Aware Mashup for Smart Mobile Devices
+Enterprise Mashups: Design Principles towards the Long Tail of User Needs
+A Debugging Perspective on End-User Mashup Programming
+A Web API Aggregation Service for Mobile Mashup Applications
+Time-Aware Service Recommendation for Mashup Creation
+Enhancing Scalability and Performance of Mashups Through Merging and Operator Reordering
+The Talking Cloud: A Cloud Platform for Enabling Communication Mashups
+A Recommendation System for Semantic Mashup Design
+Automating Mashups for Next-Generation Enterprise Portals
+Mashup Service Recommendation Based on Usage History and Service Network
+From Mashups to Telco Mashups: A Survey
+Towards User-Centered Distributed Mashups
+Mashup by surfing a web of data APIs
+OMOS: A Framework for Secure Communication in Mashup Applications
+Bridging the Gap between Spatial Data Sources and Mashup Applications
+Towards a More Effective Mashup Using Mashable Service Model
+D-Mash: A Framework for Privacy-Preserving Data-as-a-Service Mashups
+Service-Oriented Architecture for High-Dimensional Private Data Mashup
+Towards Semantic-Assisted Web Mashup Generation
+Mashroom+: An Interactive Data Mashup Approach with Uncertainty Handling
+Methodology Mashups: An Exploration of Processes Used to Maintain Software
+An Automatic Teaching Materials Construction System based on Mashup
+Promoting Mashup creation through unstructured data extraction
+Recommending APIs for Mashup Completion Using Association Rules Mined from Real Usage Data
+A Mashup Application to Support Complex Decision Making for Retail Consumers
+Enabling enterprise mashups over unstructured text feeds with InfoSphere MashupHub and SystemT
+Preserving Data Query Privacy in Mobile Mashups through Mobile Cloud Computing
+iMashup: a mashup-based framework for service composition
+Does Elearning Have To Be So Awful? (Time to Mashup or Shutup)
+Recommendation and Weaving of Reusable Mashup Model Patterns for Assisted Development
+Time-Aware Service Recommendation for Mashup Creation in an Evolving Service Ecosystem
+Mashup Feeds: continuous queries over web services
+Mashup services to daily activities: end-user perspective in designing a consumer mashups
+Services Mashups: The New Generation of Web Applications
+Clustering-Based Collaborative Filtering Approach for Mashups Recommendation over Big Data
+On Simplifying Mobile Mashup Application Development
+Visual Mashup of Text and Media Search Results
+Understanding Mashup Development
+Crowd-Sourcing and Data Mashups Challenges: A Mini Case Study for Assisting and Solving a Disaster Management Scenario
+SA-REST: Semantically Interoperable and Easier-to-Use Services and Mashups
+Composing Data-Driven Service Mashups with Tag-Based Semantic Annotations
+Defining Mapping Mashups with BioXMash
+Design and Development of a University-Oriented Personalizable Web 2.0 Mashup Portal
+A Mashup-Based Strategy for Migration to Service-Oriented Computing
+Applications of Voting Theory to Information Mashups
+"Identification, Impact, and Refactoring of Smells in Pipe-Like Web Mashups"
+Towards end-user enabled web service consumption for Mashups
+"Quality-Aware Mashup Composition: Issues, Techniques and Tools"
+Design and Evaluation of Lifelog Mashup Platform with NoSQL Database
+CommunityMashup a flexible social mashup based on a model-driven-approach
+A Conceptual Modeling Approach to Business Service Mashup Development
+Interactive Visual Exploration of a Large Spatio-temporal Dataset: Reflections on a Geovisualization Mashup.
+Implementing Cross-Organizational Business Processes with Enterprise Mashups: Hype or Reality?
+A Spreadsheet-like Construct for Streamlining and Reusing Mashups
+Cross Cookie: A Cookie Protocol for Web Mashups
+Predicting Service Mashup Candidates Using Enhanced Syntactical Message Management
+Mashups and modularity: Towards secure and reusable web applications
+Monoliths to Mashups: Increasing Opportunistic Assets
+A Data Mashup Language for the Data Web
+A Semantic Bayesian Network for Web Mashup Network Construction
+Web API Creation for Enterprise Mashup
+A Framework for Building Privacy-Conscious DaaS Service Mashups
+A Framework for the Evaluation of Mashup Tools
+Towards Adaptive Mobile Mashups: Opportunities for Designing Effective Persuasive Technology on the Road
+Edge Mashups for Service-Oriented Collaboration
+iMashup: assisting end-user programming for the service-oriented web
+Mashups for the web-active user
+Web Services Composition: Mashups Driven Orchestration Definition
